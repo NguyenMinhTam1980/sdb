@@ -1,0 +1,13 @@
+Tất cả hệ thống hoạt động trên máy 10.0.0.9. 
+Cần add bản ghi vào hosts
+10.0.0.9		redmine-test.bm-sms.com.vn  db.bm-sms.com.vn
+
+Truy cập
+WEB: http://redmine-test.bm-sms.com.vn/
+Acc: LDAP
+
+DB: http://db.bm-sms.com.vn
+Acc: redmine_ro/read123sms
+
+FTP: 10.0.0.9
+Acc: redmine-test/lkjasoi28

@@ -1,0 +1,28 @@
+﻿Tai lieu Detail design bao gom 2 tai lieu
+
+A_TK-02_Categories_Screen_Design
+	A: Asset Management Project
+	TK-02: IF Function
+	Categories_Screen_Design: Tai lieu thiet ke chuc nang cua man hinh
+
+
+F_TK-02_Categories_Screen_Flow
+	F: Flow
+	TK-02: ID Function
+	Categories_Screen_Flow: Flow cua man hinh 
+
+
+Quy tac dat ten man hinh:
+    
+SCR-DS-LOGIN
+	SCR: screen
+        DS: Dashboard
+        LOGIN: Ten action chinh cua man hinh
+
+
+Quy tac dat ten error message:
+	
+Login_MSG001
+	Login: action cua man hinh
+	MSG: message
+	001: so thu tu cua thong bao loi  

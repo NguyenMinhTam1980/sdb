@@ -1,0 +1,31 @@
+CREATE TABLE `costs` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`cost_name` VARCHAR(200) NULL DEFAULT NULL,
+	`cost_month` INT NULL DEFAULT NULL,
+	`cost_year` INT NULL DEFAULT NULL,
+	`create_date` DATETIME NULL DEFAULT NULL,
+	`update_date` DATETIME NULL DEFAULT NULL,
+	`delete_date` DATETIME NULL DEFAULT NULL,
+	`delete_flag` INT(1) NULL DEFAULT '0',
+	PRIMARY KEY (`id`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=MyISAM;
+
+CREATE TABLE `costdetail` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`cost_name` VARCHAR(200) NULL DEFAULT NULL,
+	`costgroup_id` INT(11) NULL DEFAULT NULL,
+	`cost_plan` DOUBLE NULL DEFAULT NULL,
+	`cost_actuality` DOUBLE NULL DEFAULT NULL,
+	`plan_actuality` DOUBLE NULL DEFAULT NULL,
+	`cost_month` INT(11) NULL DEFAULT NULL,
+	`cost_year` INT(11) NULL DEFAULT NULL,
+	`create_date` DATETIME NULL DEFAULT NULL,
+	`update_date` DATETIME NULL DEFAULT NULL,
+	`delete_date` DATETIME NULL DEFAULT NULL,
+	`delete_flag` INT(1) NULL DEFAULT '0',
+	PRIMARY KEY (`id`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=MyISAM;
